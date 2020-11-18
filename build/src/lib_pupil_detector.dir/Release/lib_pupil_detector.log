@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt
+  pupil_detector.cc
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(17): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(21): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(39): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(40): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(107): warning C4244: 'argument': conversion from 'const std::size_t' to 'double', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(122): warning C4244: 'argument': conversion from 'std::size_t' to 'double', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\pupil_detector.cc(122): warning C4244: 'argument': conversion from 'const std::size_t' to 'double', possible loss of data
+  lib_pupil_detector.vcxproj -> C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\Release\lib_pupil_detector.lib

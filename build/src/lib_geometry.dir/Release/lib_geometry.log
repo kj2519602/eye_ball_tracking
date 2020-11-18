@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt
+  geometry.cc
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\geometry.cc(36): warning C4244: 'argument': conversion from 'const pupil::Scalar' to 'float', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\geometry.cc(37): warning C4244: 'argument': conversion from 'pupil::Scalar' to 'float', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\geometry.cc(38): warning C4244: 'argument': conversion from 'pupil::Scalar' to 'float', possible loss of data
+  lib_geometry.vcxproj -> C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\Release\lib_geometry.lib

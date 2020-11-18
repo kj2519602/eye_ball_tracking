@@ -1,0 +1,8 @@
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/lib_geometry.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/lib_camera.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/lib_solver.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/lib_pupil_detector.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/lib_tracker.dir
+C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/demo.dir

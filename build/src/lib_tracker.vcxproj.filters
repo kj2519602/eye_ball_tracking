@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\src\eyeball_tracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4744334-4B11-3730-BD5B-AF6BD3FB6836}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

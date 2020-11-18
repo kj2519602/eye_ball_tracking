@@ -1,0 +1,7 @@
+﻿  demo.cc
+c:\users\zhang\documents\devel\eye_ball_tracking\src\eyeball_tracker.h(48): warning C4244: 'argument': conversion from 'const pupil::Scalar' to 'unsigned __int64', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\demo.cc(43): warning C4244: 'argument': conversion from 'std::size_t' to 'pupil::Scalar', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\demo.cc(74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\demo.cc(78): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zhang\Documents\devel\eye_ball_tracking\src\demo.cc(82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  demo.vcxproj -> C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\Release\demo.exe
