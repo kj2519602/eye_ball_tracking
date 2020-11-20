@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zhang/Documents/devel/eye_ball_tracking/src
+# Install script for directory: C:/Users/zhang/Documents/devel/eye_ball_git/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

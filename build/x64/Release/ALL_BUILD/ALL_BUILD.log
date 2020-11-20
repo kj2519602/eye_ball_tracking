@@ -1,0 +1,9 @@
+﻿Build started 11/19/2020 11:34:32 PM.
+     1>Project "C:\Users\zhang\Documents\devel\eye_ball_git\build\ALL_BUILD.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_git/CMakeLists.txt
+     1>Done Building Project "C:\Users\zhang\Documents\devel\eye_ball_git\build\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

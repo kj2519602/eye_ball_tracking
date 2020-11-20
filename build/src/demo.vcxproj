@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F57EBD98-43AA-39C4-9A8F-167739203CF3}</ProjectGuid>
+    <ProjectGuid>{B3159D7B-7F8B-3036-BD71-63C4597C1E91}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>demo</ProjectName>
@@ -29,22 +29,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -55,25 +55,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">demo.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">demo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">demo.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">demo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">demo.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">demo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">demo.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">demo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,13 +109,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>Debug\lib_geometry.lib;Debug\lib_pupil_detector.lib;Debug\lib_solver.lib;Debug\lib_camera.lib;Debug\lib_tracker.lib;Debug\lib_camera.lib;Debug\lib_solver.lib;Debug\lib_pupil_detector.lib;Debug\lib_geometry.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249d.lib;Debug\lib_geometry.lib;Debug\lib_union_find.lib;Debug\lib_pupil_detector.lib;Debug\lib_solver.lib;Debug\lib_camera.lib;Debug\lib_tracker.lib;Debug\lib_camera.lib;Debug\lib_solver.lib;Debug\lib_pupil_detector.lib;Debug\lib_union_find.lib;Debug\lib_geometry.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_videostab249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_superres249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_stitching249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_contrib249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_nonfree249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ocl249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_gpu249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_photo249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_objdetect249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_legacy249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_video249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ml249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_calib3d249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_features2d249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_highgui249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_imgproc249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_flann249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_core249d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/Debug/demo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/Debug/demo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/Debug/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/Debug/demo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -124,7 +124,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -140,10 +140,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,13 +151,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>Release\lib_geometry.lib;Release\lib_pupil_detector.lib;Release\lib_solver.lib;Release\lib_camera.lib;Release\lib_tracker.lib;Release\lib_camera.lib;Release\lib_solver.lib;Release\lib_pupil_detector.lib;Release\lib_geometry.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249.lib;Release\lib_geometry.lib;Release\lib_union_find.lib;Release\lib_pupil_detector.lib;Release\lib_solver.lib;Release\lib_camera.lib;Release\lib_tracker.lib;Release\lib_camera.lib;Release\lib_solver.lib;Release\lib_pupil_detector.lib;Release\lib_union_find.lib;Release\lib_geometry.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_videostab249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_superres249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_stitching249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_contrib249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_nonfree249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ocl249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_gpu249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_photo249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_objdetect249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_legacy249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_video249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ml249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_calib3d249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_features2d249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_highgui249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_imgproc249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_flann249.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_core249.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/Release/demo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/Release/demo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/Release/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/Release/demo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -166,7 +166,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -182,10 +182,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -193,13 +193,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>MinSizeRel\lib_geometry.lib;MinSizeRel\lib_pupil_detector.lib;MinSizeRel\lib_solver.lib;MinSizeRel\lib_camera.lib;MinSizeRel\lib_tracker.lib;MinSizeRel\lib_camera.lib;MinSizeRel\lib_solver.lib;MinSizeRel\lib_pupil_detector.lib;MinSizeRel\lib_geometry.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249d.lib;MinSizeRel\lib_geometry.lib;MinSizeRel\lib_union_find.lib;MinSizeRel\lib_pupil_detector.lib;MinSizeRel\lib_solver.lib;MinSizeRel\lib_camera.lib;MinSizeRel\lib_tracker.lib;MinSizeRel\lib_camera.lib;MinSizeRel\lib_solver.lib;MinSizeRel\lib_pupil_detector.lib;MinSizeRel\lib_union_find.lib;MinSizeRel\lib_geometry.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_videostab249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_superres249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_stitching249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_contrib249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_nonfree249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ocl249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_gpu249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_photo249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_objdetect249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_legacy249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_video249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ml249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_calib3d249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_features2d249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_highgui249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_imgproc249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_flann249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_core249d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/MinSizeRel/demo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/MinSizeRel/demo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/MinSizeRel/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/MinSizeRel/demo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -208,7 +208,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -223,10 +223,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_tracking\third_party;C:\OpenCV-3.4.3\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_tracking;C:\OpenCV-3.4.3\opencv\build\include;C:\OpenCV-3.4.3\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zhang\Documents\devel\eye_ball_git\third_party;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv;C:\OpenCV-2.4.9\opencv\build\include;C:\OpenCV-2.4.9\opencv\build\include\opencv;C:\OpenCV-2.4.9\opencv\build\include\opencv2;C:\Users\zhang\Documents\devel\eye_ball_git;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -234,13 +234,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>RelWithDebInfo\lib_geometry.lib;RelWithDebInfo\lib_pupil_detector.lib;RelWithDebInfo\lib_solver.lib;RelWithDebInfo\lib_camera.lib;RelWithDebInfo\lib_tracker.lib;RelWithDebInfo\lib_camera.lib;RelWithDebInfo\lib_solver.lib;RelWithDebInfo\lib_pupil_detector.lib;RelWithDebInfo\lib_geometry.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;C:\OpenCV-3.4.3\opencv\build\x64\vc14\lib\opencv_world343.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249d.lib;RelWithDebInfo\lib_geometry.lib;RelWithDebInfo\lib_union_find.lib;RelWithDebInfo\lib_pupil_detector.lib;RelWithDebInfo\lib_solver.lib;RelWithDebInfo\lib_camera.lib;RelWithDebInfo\lib_tracker.lib;RelWithDebInfo\lib_camera.lib;RelWithDebInfo\lib_solver.lib;RelWithDebInfo\lib_pupil_detector.lib;RelWithDebInfo\lib_union_find.lib;RelWithDebInfo\lib_geometry.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_videostab249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ts249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_superres249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_stitching249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_contrib249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_nonfree249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ocl249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_gpu249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_photo249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_objdetect249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_legacy249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_video249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_ml249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_calib3d249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_features2d249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_highgui249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_imgproc249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_flann249d.lib;C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\opencv_core249d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/RelWithDebInfo/demo.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/RelWithDebInfo/demo.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/RelWithDebInfo/demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhang/Documents/devel/eye_ball_git/build/src/RelWithDebInfo/demo.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -248,10 +248,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\zhang\Documents\devel\eye_ball_git\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_git/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_tracking -BC:/Users/zhang/Documents/devel/eye_ball_tracking/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_git -BC:/Users/zhang/Documents/devel/eye_ball_git/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,11 +260,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_git/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_tracking -BC:/Users/zhang/Documents/devel/eye_ball_tracking/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_git -BC:/Users/zhang/Documents/devel/eye_ball_git/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +273,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_git/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_tracking -BC:/Users/zhang/Documents/devel/eye_ball_tracking/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_git -BC:/Users/zhang/Documents/devel/eye_ball_git/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +286,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_git/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_tracking -BC:/Users/zhang/Documents/devel/eye_ball_tracking/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zhang/Documents/devel/eye_ball_git -BC:/Users/zhang/Documents/devel/eye_ball_git/build --check-stamp-file C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,39 +299,43 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zhang\Documents\devel\eye_ball_git\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\src\demo.cc" />
+    <ClCompile Include="C:\Users\zhang\Documents\devel\eye_ball_git\src\demo.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\build\ZERO_CHECK.vcxproj">
-      <Project>{085A70BA-9E0E-3148-8C93-ED983969DE6A}</Project>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\ZERO_CHECK.vcxproj">
+      <Project>{AC407120-6731-3FA5-AD85-FBD59F712DB0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\lib_camera.vcxproj">
-      <Project>{A3FF260F-C782-36CC-9CF7-D75C83638A83}</Project>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_camera.vcxproj">
+      <Project>{A6378C2E-1259-3F5A-8CD0-3A0221962A60}</Project>
       <Name>lib_camera</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\lib_geometry.vcxproj">
-      <Project>{AEC92D11-31EA-32AA-8A45-9C34145D23E7}</Project>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_geometry.vcxproj">
+      <Project>{A738ACD8-75FF-39B6-B1C2-225D74DE73CF}</Project>
       <Name>lib_geometry</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\lib_pupil_detector.vcxproj">
-      <Project>{B16AFF85-363C-3FDC-94D0-50F1E7543405}</Project>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_pupil_detector.vcxproj">
+      <Project>{FC0FD33B-F124-3577-882A-AC13386AE227}</Project>
       <Name>lib_pupil_detector</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\lib_solver.vcxproj">
-      <Project>{E31161BC-0CE0-3109-9B83-BAAC1E256D1B}</Project>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_solver.vcxproj">
+      <Project>{2CCC1C3C-EAD1-3BBC-809F-AD2FEED48427}</Project>
       <Name>lib_solver</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\lib_tracker.vcxproj">
-      <Project>{3B349AE8-2BF8-3092-B3C1-BB1F31B81CDC}</Project>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_tracker.vcxproj">
+      <Project>{114E96FC-C38A-357B-85BD-E4A835A14823}</Project>
       <Name>lib_tracker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_union_find.vcxproj">
+      <Project>{3D37C9B1-18BF-3BE2-9E76-CE1AE7B324E9}</Project>
+      <Name>lib_union_find</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

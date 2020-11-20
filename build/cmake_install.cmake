@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zhang/Documents/devel/eye_ball_tracking
+# Install script for directory: C:/Users/zhang/Documents/devel/eye_ball_git
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/zhang/Documents/devel/eye_ball_tracking/build/src/cmake_install.cmake")
+  include("C:/Users/zhang/Documents/devel/eye_ball_git/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/zhang/Documents/devel/eye_ball_tracking/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/zhang/Documents/devel/eye_ball_git/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

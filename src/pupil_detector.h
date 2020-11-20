@@ -46,13 +46,10 @@ private:
   // Get pupil edges under pupil mask with Canny detector.
   void GetPupilEdges(const cv::Mat& input, const cv::Mat& mask, cv::Mat* edges, std::vector<cv::Point>& corner_points);
 
-  // 
-  void FindBestEdges();
-
-  void FitPupilElipse();
-
   const Options options_;
 };
+
+int ConnectedComponents(const cv::Mat& input, cv::Mat* output);
 
 }  // namespace pupil
 

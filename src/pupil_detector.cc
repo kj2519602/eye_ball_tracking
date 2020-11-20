@@ -4,9 +4,12 @@
 #include <iostream>
 #include <limits>
 #include <algorithm>
+#include <unordered_map>
 
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
+
+#include "union_find.h"
 
 namespace pupil {
 // Run entire pupil detector algorithm.
@@ -103,7 +106,7 @@ const PupilDetector::PixelType PupilDetector::GetDarkThreshold(const cv::Mat& in
 size_t PupilDetector::GetPupilMask(const cv::Mat& input, const PixelType thresh, cv::Mat* mask) {
     cv::threshold(input, *mask, thresh, 1, cv::THRESH_BINARY);
     cv::Mat dist, labels;
-    cv::distanceTransform(*mask, dist, labels, 3,  cv::DIST_L1);
+    cv::distanceTransform(*mask, dist, labels, CV_DIST_L1, 3);
     cv::threshold(dist, *mask, options_.mask_margin, 65536, cv::THRESH_BINARY_INV);
     mask->convertTo(*mask,CV_8UC1);
     return 0;
@@ -118,10 +121,10 @@ cv::Rect PupilDetector::GetMaskRoi(const cv::Mat& mask) {
 
 // Get pupil edges under pupil mask with Canny detector.
 void PupilDetector::GetPupilEdges(const cv::Mat& input, const cv::Mat& mask, cv::Mat* edges, std::vector<cv::Point>& corner_points) {
-    cv::Mat labels; 
     cv::Canny(input, *edges, options_.low_threshold, options_.low_threshold*options_.ratio, options_.kernel_size);
     edges->copyTo(*edges, mask);
-    int nLabels = cv::connectedComponents(*edges, labels, 8);
+	cv::Mat labels;
+    int nLabels = ConnectedComponents(*edges, &labels);
     std::vector<size_t> counter(nLabels, 0);
     for(int r = 0; r < labels.rows; ++r){
         for(int c = 0; c < labels.cols; ++c){
@@ -141,9 +144,66 @@ void PupilDetector::GetPupilEdges(const cv::Mat& input, const cv::Mat& mask, cv:
             }
          }
     }
+    cv::imshow("Debug_1", filtered_edges);
 }
 
-// 
-void FindBestEdges();
+int ConnectedComponents(const cv::Mat& binary, cv::Mat* labels) {
+	*labels = cv::Mat::zeros(binary.rows, binary.cols, CV_32SC1);
+    int next_label = 1;
+    UnionFind uf;
+    for(int r = 0; r < binary.rows; ++r){
+        for(int c = 0; c < binary.cols; ++c){
+            if (binary.at<bool>(r, c)){
+                std::vector<int> neighbor_labels;
+                if (r - 1 >= 0 && c - 1 >=0 && binary.at<bool>(r - 1, c - 1)) {
+                    neighbor_labels.push_back(labels->at<int>(r - 1, c - 1));
+                }
+                if (r - 1 >= 0 && binary.at<bool>(r - 1, c)) {
+                    neighbor_labels.push_back(labels->at<int>(r - 1, c));
+                }
+                if (r - 1 >=0 && c + 1 < binary.cols && binary.at<bool>(r - 1, c + 1)) {
+                    neighbor_labels.push_back(labels->at<int>(r - 1, c + 1));
+                }
+                if (c - 1 >=0 && binary.at<bool>(r, c - 1)) {
+                    neighbor_labels.push_back(labels->at<int>(r, c - 1));
+                }
+
+                if (neighbor_labels.empty()) {
+                    uf.Insert(next_label);
+                    labels->at<int>(r, c) = next_label;
+                    next_label++;
+                } else {
+					labels->at<int>(r, c) = *std::min_element(neighbor_labels.begin(),
+						neighbor_labels.end());
+                    for (auto label: neighbor_labels) {
+                        uf.Union(label, labels->at<int>(r, c));
+                    }
+                }
+            }
+         }
+    }
+    next_label = 1;
+    std::unordered_map<int, int> label_maps;
+    for(int r = 0; r < binary.rows; ++r){
+        for(int c = 0; c < binary.cols; ++c){
+            if (binary.at<bool>(r, c)){
+                auto cur_label = uf.Find(labels->at<int>(r, c));
+                labels->at<int>(r, c) = cur_label;
+                if (label_maps.find(cur_label) == label_maps.end()) {
+                    label_maps[cur_label] = next_label;
+                    next_label++;
+                }
+            }
+        }
+    }
+    for(int r = 0; r < binary.rows; ++r){
+        for(int c = 0; c < binary.cols; ++c){
+            if (binary.at<bool>(r, c)){
+                labels->at<int>(r, c) = label_maps[labels->at<int>(r, c)];
+            }
+        }
+    }
+	return uf.NumComponents() + 1;
+}
 
 }   // namespace pupil

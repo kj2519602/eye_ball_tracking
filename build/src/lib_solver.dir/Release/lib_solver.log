@@ -1,3 +1,15 @@
-﻿  Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_tracking/src/CMakeLists.txt
-  solver.cc
-  lib_solver.vcxproj -> C:\Users\zhang\Documents\devel\eye_ball_tracking\build\src\Release\lib_solver.lib
+﻿Build started 11/19/2020 11:34:12 PM.
+     1>Project "C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_solver.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/zhang/Documents/devel/eye_ball_git/src/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\zhang\Documents\devel\eye_ball_git\third_party /I"C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include" /I"C:\OpenCV-2.4.9\opencv\build\x64\vc12\lib\include\opencv" /I"C:\OpenCV-2.4.9\opencv\build\include" /I"C:\OpenCV-2.4.9\opencv\build\include\opencv" /I"C:\OpenCV-2.4.9\opencv\build\include\opencv2" /IC:\Users\zhang\Documents\devel\eye_ball_git /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"lib_solver.dir\Release\\" /Fd"lib_solver.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\zhang\Documents\devel\eye_ball_git\src\solver.cc
+         solver.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\zhang\Documents\devel\eye_ball_git\build\src\Release\lib_solver.lib" /NOLOGO /MACHINE:X64  /machine:x64 lib_solver.dir\Release\solver.obj
+         lib_solver.vcxproj -> C:\Users\zhang\Documents\devel\eye_ball_git\build\src\Release\lib_solver.lib
+     1>Done Building Project "C:\Users\zhang\Documents\devel\eye_ball_git\build\src\lib_solver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31

@@ -1,10 +1,11 @@
 #ifndef _GEOMETRY_H_
 #define _GEOMETRY_H_
 
+#include <stdint.h>
 #include <cmath>
 #include "Eigen/Dense"
 
-#include "opencv2/core/types.hpp"
+#include "opencv2/core/core.hpp"
 
 namespace pupil {
 
