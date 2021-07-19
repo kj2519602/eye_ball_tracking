@@ -1,9 +1,8 @@
-C:/Users/zhang/Documents/devel/eye_ball_git/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/lib_geometry.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/lib_camera.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/lib_solver.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/lib_pupil_detector.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/lib_union_find.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/lib_tracker.dir
-C:/Users/zhang/Documents/devel/eye_ball_git/build/src/CMakeFiles/demo.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/CMakeFiles/rebuild_cache.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/CMakeFiles/edit_cache.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/src/CMakeFiles/demo.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/src/CMakeFiles/edit_cache.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/src/CMakeFiles/inputs.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/src/CMakeFiles/math.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/src/CMakeFiles/rebuild_cache.dir
+/home/liangkai/devel/src/eye_ball_tracking/build/src/CMakeFiles/core.dir

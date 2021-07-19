@@ -1,28 +1,25 @@
 
-add_library(lib_geometry geometry.cc)
-target_link_libraries(lib_geometry  ${PUPIL_LIBRARIES})
-set(PUPIL_LIBRARIES ${PUPIL_LIBRARIES} lib_geometry)
+# Lib for math.
+set(LIB_NAME math)
+file(GLOB SOURCE_FILES "${LIB_NAME}/*.cc")
+add_library(${LIB_NAME} SHARED ${SOURCE_FILES})
+target_link_libraries(${LIB_NAME}  ${PUPIL_LIBRARIES})
+set(EXTRA_LIBS ${EXTRA_LIBS} ${LIB_NAME})
 
-add_library(lib_union_find union_find.cc)
-target_link_libraries(lib_union_find  ${PUPIL_LIBRARIES})
-set(PUPIL_LIBRARIES ${PUPIL_LIBRARIES} lib_union_find)
+# Lib for core.
+set(LIB_NAME core)
+file(GLOB SOURCE_FILES "${LIB_NAME}/*.cc")
+add_library(${LIB_NAME} SHARED ${SOURCE_FILES})
+target_link_libraries(${LIB_NAME}  ${PUPIL_LIBRARIES})
+set(EXTRA_LIBS ${EXTRA_LIBS} ${LIB_NAME})
 
-add_library(lib_pupil_detector pupil_detector.cc)
-target_link_libraries(lib_pupil_detector  ${PUPIL_LIBRARIES})
-set(PUPIL_LIBRARIES ${PUPIL_LIBRARIES} lib_pupil_detector)
+# Lib for inputs.
+set(LIB_NAME inputs)
+file(GLOB SOURCE_FILES "${LIB_NAME}/*.cc")
+add_library(${LIB_NAME} SHARED ${SOURCE_FILES})
+target_link_libraries(${LIB_NAME}  ${PUPIL_LIBRARIES})
+set(EXTRA_LIBS ${EXTRA_LIBS} ${LIB_NAME})
 
-
-add_library(lib_solver solver.cc)
-target_link_libraries(lib_solver  ${PUPIL_LIBRARIES})
-set(PUPIL_LIBRARIES ${PUPIL_LIBRARIES} lib_solver)
-
-add_library(lib_camera camera.cc)
-target_link_libraries(lib_camera  ${PUPIL_LIBRARIES})
-set(PUPIL_LIBRARIES ${PUPIL_LIBRARIES} lib_camera)
-
-add_library(lib_tracker eyeball_tracker.cc)
-target_link_libraries(lib_tracker  ${PUPIL_LIBRARIES})
-set(PUPIL_LIBRARIES ${PUPIL_LIBRARIES} lib_tracker)
-
-add_executable(demo demo.cc)
-target_link_libraries(demo ${PUPIL_LIBRARIES})
+# Apps.
+add_executable(demo app/demo.cc)
+target_link_libraries(demo ${PUPIL_LIBRARIES} ${EXTRA_LIBS})
